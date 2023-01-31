@@ -1,0 +1,77 @@
+
+body{
+    background-image: url("https://www.hitbullseye.com/images/school.svg");
+  display: flex;
+  padding: 0 10px;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+.container{
+  width: 430px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  background: #fff;
+  border-radius: 10px;
+}
+.container h1{
+  font-size: 25px;
+  padding: 20px 25px;
+  font-weight: 500;
+  border-bottom: 1px solid #ccc;
+}
+.container .content{
+  margin: 25px 25px 35px;
+}
+.content .ip{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content .r-btn{
+  width: 100%;
+  color: rgb(245, 245, 245);
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+  padding: 15px 0;
+  font-size: 17px;
+  background: #19a88b;
+  transition: all 0.3s ease;
+}
+.content .r-btn:hover{
+  background: #14977d;
+}
+.ip input{
+    width: 56px;
+    height: 57px;
+  margin: 4px;
+  font-size: 24px;
+  background: none;
+  font-weight: 500;
+  color: #1ba98c;
+  text-align: center;
+  pointer-events: none;
+  border-radius: 5px;
+  border: 1px solid #a6a5a5;
+  text-transform: uppercase;
+}
+.typing-input {
+    pointer-events: none;
+  opacity: 0;
+  position: absolute;
+  z-index: -999;
+}
+.content .det{
+    margin: 20px 0 25px;
+  }
+
+.ip input:first-child{
+  margin-left: 0px;
+}
+
+.det p{
+  font-size: 19px;
+  margin-bottom: 10px;
+}
